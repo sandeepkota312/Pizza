@@ -1,7 +1,5 @@
 from django.db import models
 
-from multiselectfield import MultiSelectField
-
 
 class Pizza(models.Model):
     class Type(models.TextChoices):
