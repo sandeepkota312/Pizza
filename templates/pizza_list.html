@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>Enter your categories:</h3>
+  <form method="get">
+    {{ filter.form.as_p }}
+    <button type="submit">Search</button>
+  </form>
+  <ul>
+  {% for pizza in filter.qs %}
+    <li>{{ pizza.pizza_type }} - {{ pizza.pizza_size }}</li>
+  {% endfor %}
+  </ul>
+{% endblock %}
