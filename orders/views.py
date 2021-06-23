@@ -31,8 +31,8 @@ def index(request):
 def pizzacreateandview(request):
     if request.method == 'GET':
         contents = {
-            "pizza_type": "regular",
-            "pizza_size": "medium",
+            "pizza_type": "regular or square",
+            "pizza_size": "small or medium or large",
             "onion": "true or false",
             "tomato": "true or false",
             "corn": "true or false",
