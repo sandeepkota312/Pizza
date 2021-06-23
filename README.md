@@ -1,6 +1,6 @@
 I would recommend to use pycharm to run this application.
 
-1. Install Python 3.9.5 version 
+1. Install Python 3.9.5 version - https://www.python.org/downloads/
 2. Create a new project in your pycharm and open the project.
 3. Download this git repository to your system and place them in the project folder.
 4. Open the terminal and then install the dependencies using command 'pip install -r requirements.txt'.
